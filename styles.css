@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Make body a column flex container */
+    min-height: 100vh; /* Set minimum height of body to 100% of viewport height */
+}
+
+.container {
+    text-align: center;
+    flex-grow: 1; /* Allow container to grow and take up remaining space */
+    display: flex;
+    flex-direction: column; /* Make container a column flex container */
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    color: #333;
+    transition: color 0.5s ease; /* Added color transition */
+}
+
+p {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.5s ease; /* Added color transition */
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.5s ease; /* Added color transition */
+}
+
+/* Night Mode */
+.night-mode {
+    background-color: #333;
+    color: #ddd; /* Adjusted text color for night mode */
+}
+
+/* Adjusted text color for night mode */
+.night-mode h1 {
+    color: #ddd;
+}
+
+/* Adjusted text color for night mode */
+.night-mode p {
+    color: #bbb;
+}
+
+/* Adjusted link color for night mode */
+.night-mode footer a {
+    color: #ddd;
+}
